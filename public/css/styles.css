@@ -42,7 +42,7 @@ a{
     color: tomato;
 }
 .menu-btn{
-    display: none !important;
+    display: none;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
@@ -76,7 +76,7 @@ a{
     height: 100vh;
     background: #eee;
     z-index: 999;
-    transform: translateX(110%);
+    transform: translateX(200%);
     transition: .3s ease-in-out;
     cursor: pointer;
 }
