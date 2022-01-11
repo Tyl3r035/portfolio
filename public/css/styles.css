@@ -81,7 +81,7 @@ a{
     cursor: pointer;
 }
 .mobile-menu-active{
-    transform: translateX(0);
+    transform: translateX(0) !important;
 }
 .mobile-navbar{
     position: relative;

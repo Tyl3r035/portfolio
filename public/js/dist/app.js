@@ -1,4 +1,4 @@
-let menuBtn = document.getElementsByClassName('menu-btn')[0];
+let menuBtn = document.getElementById('menu-btn');
 let mobileMenu = document.getElementsByClassName('mobile-menu')[0];
 let closeBtn = document.getElementsByClassName('mobile-close')[0];
 let mobileLink = document.querySelectorAll('.mobile-nav-link');
@@ -16,7 +16,7 @@ mobileLink.forEach((item)=>{
         mobileMenu.classList.remove('mobile-menu-active')
     })
 })
-
+console.log("Hello")
 
 
 
