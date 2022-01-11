@@ -42,7 +42,7 @@ a{
     color: tomato;
 }
 .menu-btn{
-    display: none;
+    display: none !important;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
@@ -66,6 +66,7 @@ a{
     height: 2px;
     background: #333;
     border-radius: 1px;
+    justify-self: flex-end;
 }
 .mobile-menu{
     position: fixed;
@@ -435,7 +436,7 @@ textarea{
 /* Media Queries */
 @media(max-width: 650px){
     .menu-btn{
-        display: flex;
+        display: flex !important;
     }
     #navbar{
         display: none;
