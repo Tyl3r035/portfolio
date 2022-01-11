@@ -16,3 +16,10 @@ mobileLink.forEach((item)=>{
         mobileMenu.classList.remove('mobile-menu-active')
     })
 })
+
+
+
+
+// function isEmailValid(email){
+//     return /\S+@\S+\.\S+/.test(email);
+}
