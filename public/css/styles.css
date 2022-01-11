@@ -41,8 +41,8 @@ a{
 .nav-link:hover{
     color: tomato;
 }
-.menu-btn{
-    display: none;
+#menu-btn{
+    display: none !important;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
@@ -434,8 +434,13 @@ textarea{
 }
 
 /* Media Queries */
+@media(min-width: 650px){
+    #menu-btn{
+        display: none !important;
+    }
+}
 @media(max-width: 650px){
-    .menu-btn{
+    #menu-btn{
         display: flex !important;
     }
     #navbar{
